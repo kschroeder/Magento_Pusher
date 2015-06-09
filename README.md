@@ -13,6 +13,7 @@ The module does not integrate with the JavaScript API, it only enables it and so
 
 To test it, use the Curl command provided on your Pusher app page, such as 
 
+```
 curl -H 'Content-Type: application/json' -d '{"data":"{\"message\":\"hello world\"}","name":"my_event","channel":"test_channel"}' \
 "http://api.pusherapp.com/apps/{APPID}/events?"\
 "body_md5={MD5}&"\
@@ -20,6 +21,7 @@ curl -H 'Content-Type: application/json' -d '{"data":"{\"message\":\"hello world
 "auth_key={AUTHKEY}&"\
 "auth_timestamp=1433857606&"\
 "auth_signature={SIGNATURE}&"
+```
 
 You should see a popup on your page.with the hello world message.
 
