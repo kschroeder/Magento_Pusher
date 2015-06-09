@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<global>
+		<models>
+			<eschrade_pusher>
+				<class>Eschrade_Pusher_Model</class>
+			</eschrade_pusher>
+		</models>
+
+		<blocks>
+			<eschrade_pusher>
+				<class>Eschrade_Pusher_Block</class>
+			</eschrade_pusher>
+		</blocks>
+	</global>
+	<frontend>
+		<layout>
+			<updates>
+				<eschrade_pusher>
+					<file>eschrade/pusher.xml</file>
+				</eschrade_pusher>
+			</updates>
+		</layout>
+	</frontend>
+</config>
